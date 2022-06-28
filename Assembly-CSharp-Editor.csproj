@@ -686,6 +686,12 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Aramesh/markaz/SurviveCommander/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>D:/Aramesh/markaz/SurviveCommander/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>D:/Aramesh/markaz/SurviveCommander/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">

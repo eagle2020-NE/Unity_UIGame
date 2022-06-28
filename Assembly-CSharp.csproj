@@ -52,14 +52,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
      <Compile Include="Assets\Scripts\AI_Brain\AIState.cs" />
      <Compile Include="Assets\Scripts\AI_Brain\MMReadOnlyAttribute.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
      <Compile Include="Assets\Scripts\AI_Decisions\AiDecisionFightToAvoid.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
      <Compile Include="Assets\Scripts\AI_Brain\ReorderableAttribute.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
      <Compile Include="Assets\Water\Water\Scripts\Displace.cs" />
      <Compile Include="Assets\Scripts\AI_Actions\AiActionFighting_EnemyFighter.cs" />
      <Compile Include="Assets\AAmissle\AARemoveEffect.cs" />
@@ -70,7 +66,6 @@
      <Compile Include="Assets\Scripts\AI_Decisions\AiDecision_patrolToGuide.cs" />
      <Compile Include="Assets\AAmissle\AAMissile.cs" />
      <Compile Include="Assets\Scripts\AI_Actions\AiAction_Guide.cs" />
-     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\Water\Water\Scripts\WaterTile.cs" />
      <Compile Include="Assets\Scripts\AI_Decisions\AiDecisionPatrolToFight.cs" />
      <Compile Include="Assets\Scripts\AI_Actions\AiActionPatrolling_EnemyFighter.cs" />
@@ -81,13 +76,11 @@
      <Compile Include="Assets\Scripts\AI_Brain\AIBrain.cs" />
      <Compile Include="Assets\Water\Water\Scripts\MeshContainer.cs" />
      <Compile Include="Assets\AAmissle\AALauncher.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
      <Compile Include="Assets\Scripts\AI_Brain\AIDecision.cs" />
      <Compile Include="Assets\Water\Water\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\Scripts\AI_Brain\ReorderableArray.cs" />
      <Compile Include="Assets\Scripts\AI_Decisions\AiDecisionAvoidToFight.cs" />
      <Compile Include="Assets\Scripts\AI_Brain\AIAction.cs" />
-     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Compile Include="Assets\Scripts\AI_Decisions\AiDecision_GuideToPatrol.cs" />
      <Compile Include="Assets\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\Enemies\JD\Scripts\JDController.cs" />
@@ -692,6 +685,12 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Aramesh/markaz/SurviveCommander/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>D:/Aramesh/markaz/SurviveCommander/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>D:/Aramesh/markaz/SurviveCommander/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
